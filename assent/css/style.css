@@ -1,0 +1,394 @@
+.logo {
+  width: 119px;
+  margin-top: 25px;
+}
+.logo img {
+  width: 100%;
+}
+
+#up {
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  font-size: 14px !important;
+  margin-top: 25px;
+  margin-left: 16px;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+.call-back {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-left: 49px;
+  margin-top: 15px;
+  font-size: 32px;
+}
+.call-back a {
+  font-weight: 700;
+  margin-right: 8px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: inherit;
+  word-break: break-word;
+}
+
+.call-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.1;
+}
+.call-text span {
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+
+.translate {
+  display: flex;
+  margin-top: 11px;
+}
+.translate a {
+  font-weight: 400;
+  margin-left: 12px;
+  font-size: 15px;
+}
+
+#phone-header .box {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+}
+#phone-header .box i {
+  color: black;
+  font-size: 20px;
+}
+#phone-header .box .left {
+  display: flex;
+}
+#phone-header .box .left .phone {
+  margin-left: 20px;
+}
+#phone-header .box .center .logo {
+  width: 100px;
+  margin-top: 0;
+}
+#phone-header .box .center .logo .img {
+  width: 100px;
+}
+#phone-header .box .right .search {
+  margin-right: 20px;
+}
+
+#down {
+  background-color: #3c3f42;
+  height: 64px;
+}
+#down .left {
+  display: flex;
+}
+#down .left .menu {
+  display: flex;
+  align-items: center;
+}
+#down .left .menu .icon-button {
+  color: white;
+  display: flex;
+  font-size: 18px;
+  background-color: rgba(34, 32, 32, 0.831372549);
+  height: 64px;
+  width: 261px;
+  justify-content: center;
+  align-items: center;
+}
+#down .left .menu .icon-button .icon-menu {
+  font-size: 28px;
+  color: white;
+  margin-right: 14px;
+}
+#down .left .menu .icon-search {
+  font-size: 22px;
+}
+#down .left .menu .search-icon {
+  margin-left: 5px;
+  border-radius: 10px;
+  position: relative;
+  border: 3px solid white;
+  background-color: white;
+}
+#down .left .menu .search-icon .search {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+#down .left .menu .search-icon button {
+  border: none;
+  background-color: white;
+  height: 40px;
+}
+#down .login-account {
+  display: flex;
+}
+#down .login-account .icon-account {
+  display: flex;
+  margin-top: 15px;
+}
+#down .login-account .icon-account a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+#down .login-account .icon-account a .iconuser {
+  font-size: 27px;
+}
+#down .login-account .icon-account a span {
+  margin-left: 8px;
+}
+#down .login-account .icon-account .iconlibra {
+  font-size: 22px;
+  margin-left: 18px;
+}
+#down .login-account .icon-account .iconheart {
+  font-size: 22px;
+  margin-left: 18px;
+}
+#down .login-account .icon-account .iconshop {
+  font-size: 22px;
+  margin-left: 18px;
+}
+
+.main-right img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 100%;
+}
+
+.slider-menu ul {
+  margin-top: 13px;
+  padding-left: 15px;
+}
+.slider-menu ul li a {
+  font-size: 14px;
+  color: #3C3F42;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s;
+}
+.slider-menu ul li a:hover {
+  color: red;
+}
+.slider-menu ul li a i {
+  font-size: 16px;
+}
+.slider-menu ul li a i:nth-child(3) {
+  margin-left: 45px;
+  font-size: 10px;
+  text-align: end;
+}
+.slider-menu ul li a span {
+  flex: auto;
+}
+.slider-menu ul li a .span1 {
+  color: #ec2127;
+}
+.slider-menu ul li a img {
+  margin-bottom: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+#main-bar-down {
+  gap: 5px;
+}
+#main-bar-down .delivery {
+  width: 108%;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  display: block;
+  background-color: rgba(216, 216, 221, 0.7490196078);
+  width: 100%;
+  height: 100%;
+}
+#main-bar-down .delivery h2 {
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+#main-bar-down .delivery p {
+  margin-left: 15px;
+  color: black;
+  font-size: 13px;
+  width: 200px;
+}
+#main-bar-down .delivery img {
+  position: absolute;
+  width: 80px;
+  right: 0;
+  bottom: 0;
+}
+
+#main-second .card-1 {
+  margin-top: 50px;
+}
+#main-second .card-1 .firts-card-text {
+  display: flex;
+  gap: 10px;
+}
+#main-second .card-1 .firts-card-text h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+#main-second .card-1 .firts-card-text span {
+  font-weight: 400;
+  font-size: 13px;
+  color: #3C3F42;
+}
+#main-second .card-1 .firts-card-text i {
+  font-size: 12px;
+  color: #3C3F42;
+}
+#main-second .card-1 .up {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 11px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+#main-second .card-1 .up .p-one {
+  background-color: #0bbd0b;
+  width: 75px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+#main-second .card-1 .up .p-two {
+  background-color: rgb(140, 98, 161);
+  width: 75px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-bottom: auto;
+}
+#main-second .card-1 .up .p-three {
+  margin-bottom: auto;
+  font-weight: 600;
+  line-height: 180%;
+  background-color: rgba(37, 174, 96, 0.1);
+  color: rgb(37, 174, 96);
+  width: 209px;
+  text-align: center;
+  height: 22px;
+}
+#main-second .card-1 .up .p-four {
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: 180%;
+  background-color: rgb(23, 104, 201);
+  color: white;
+  width: 96px;
+  text-align: center;
+  height: 19px;
+}
+#main-second .card-1 .firstcard {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#main-second .card-1 .firstcard .text-star .p-five {
+  text-align: center;
+  margin-right: 4px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+#main-second .card-1 .firstcard .text-star .star {
+  color: gray;
+  font-size: 14px;
+  margin-left: 18px;
+}
+#main-second .card-1 .firstcard .text-star .star span {
+  color: gray;
+  font-size: 12px;
+  margin-left: 12px;
+}
+#main-second .card-1 .firstcard .text-star .price {
+  margin-top: 50px;
+  margin-left: 18px;
+  font-weight: bold;
+  font-size: 30px;
+}
+#main-second .card-1 .firstcard .card-down {
+  color: red;
+}
+#main-second .card-1 .firstcard .card-down a {
+  color: #53595c;
+}
+#main-second .card-1 .firstcard .shop-car {
+  box-shadow: 0 2px 8px rgba(8, 8, 8, 0.36);
+  color: red;
+  justify-content: center;
+  display: flex;
+  width: 48px;
+  bottom: 75px;
+  left: 80%;
+  position: relative;
+  font-size: 25px;
+  height: 48px;
+  background-color: #f3f3f3;
+  align-items: center;
+  border-radius: 50%;
+}
+#main-second .card-1 .firstcard .shop-car a :hover {
+  background-color: red;
+}
+#main-second .card-1 .firstcard ul {
+  margin-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 17px;
+  font-size: 25px;
+  gap: 15px;
+}
+#main-second .card-1 .firstcard ul a {
+  color: rgba(66, 68, 70, 0.431372549);
+}
+#main-second .card-1 .firstcard ul a :hover {
+  color: red;
+}
+#main-second .card-1 img {
+  margin-top: 54px;
+  padding: 35px;
+}
+#main-second .card-2 {
+  margin-top: 80px;
+}
+#main-second .card-2 .img-card-two {
+  margin-top: 38%;
+}
+#main-second .card-2 .img-card-three {
+  margin-top: 39.5%;
+}
+#main-second .card-2 .img-card-four {
+  margin-top: 47%;
+}
+#main-second .card-2 .p-five-edit {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
