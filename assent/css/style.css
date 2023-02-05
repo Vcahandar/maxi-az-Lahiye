@@ -51,7 +51,7 @@ ul {
   line-height: 0.1;
 }
 .call-text span {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   margin-top: 10px;
 }
 
@@ -391,4 +391,421 @@ ul {
   text-align: center;
   font-size: 13px;
   font-weight: 600;
+}
+
+#maxi-news .news-banner .discount-card .card-body .card-title {
+  color: #ec2127;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: system-ui;
+}
+#maxi-news .news-banner .discount-card .card-body span {
+  color: #0c61d5;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: system-ui;
+}
+#maxi-news .news-banner .discount-card .card-body img {
+  max-width: 114px;
+  position: absolute;
+  /* width: 90px; */
+  /* height: 61px; */
+  left: 88%;
+}
+#maxi-news .news-banner .discount-card .card-body .nav-base {
+  gap: 12px;
+}
+#maxi-news .news-banner .discount-card .card-body .nav-base .nav-active {
+  color: red;
+}
+#maxi-news .news-banner .discount-card .card-body .nav-base .nav-item {
+  font-size: 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: #eaf0f8;
+  line-height: 140%;
+}
+#maxi-news .news-banner .discount-card .card-body .nav-base .nav-item a {
+  color: black;
+}
+#maxi-news .news-banner .discount-card .card-header {
+  padding: 50px 50px 20px;
+  height: 350px;
+  background-color: #ffa319;
+  display: flex;
+}
+#maxi-news .news-banner .discount-card .card-header .parametr {
+  margin-top: 0;
+}
+#maxi-news .news-banner .discount-card .card-header .parametr ul {
+  font-size: 15px;
+  list-style: inherit;
+  color: gold;
+}
+#maxi-news .news-banner .discount-card .card-header .parametr ul li {
+  color: white;
+}
+#maxi-news .news-banner .discount-card .card-header .parametr .promotion {
+  border-radius: 20px;
+  margin-top: 25px;
+  text-align: center;
+  width: 240px;
+  height: 70px;
+  background-color: #fed237;
+}
+#maxi-news .news-banner .discount-card .card-header .parametr .promotion h6 {
+  padding-top: 12px;
+  font-size: 12px;
+  padding-right: 55px;
+}
+#maxi-news .news-banner .discount-card .card-header .parametr .promotion h5 {
+  font-size: 26px;
+  padding-right: 22px;
+  line-height: 8px;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone {
+  display: flex;
+  width: 62%;
+  margin-left: 40px;
+  height: 95%;
+  border-radius: 30px;
+  background-color: white;
+  padding: 15px;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone img {
+  width: 43%;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info a {
+  color: black;
+  font-family: inherit;
+  font-size: 21px;
+  font-weight: 400;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .star-phone {
+  color: rgba(213, 207, 207, 0.6509803922);
+  margin-top: 8px;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .star-phone .text-comment {
+  color: rgba(129, 124, 124, 0.7607843137);
+  font-size: 12px;
+  margin-left: 7px;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .price-phone {
+  color: red;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .price-phone i {
+  font-size: 22px;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .kredit a {
+  border-style: dotted;
+  border-width: 0 0 2px 0;
+  font-size: 13px;
+  border-color: gray;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .kredit a i {
+  color: red;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .kredit a span {
+  color: gray;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .buttons {
+  margin-top: 20px;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .buttons .order-button {
+  background-color: #ec2127;
+  font-weight: 700;
+  font-size: 14px;
+  width: 105px;
+  height: 40px;
+  color: white;
+}
+#maxi-news .news-banner .discount-card .card-header .img-phone .phone-info .buttons a {
+  font-size: 14px;
+  border-style: dotted;
+  border-width: 0 0 2px 0;
+  border-color: gray;
+  text-decoration: none;
+  color: gray;
+  margin-left: 12px;
+}
+
+#advertising-maxi .advertisements {
+  margin-top: 90px;
+}
+#advertising-maxi .advertisements .brand {
+  border-radius: 50%;
+  width: 176px;
+  height: 176px;
+  background-color: #ededee;
+}
+#advertising-maxi .advertisements .brand img {
+  margin-top: 68px;
+  margin-left: 10px;
+}
+#advertising-maxi .advertisements .brand .img-apple {
+  margin-left: 24px;
+}
+#advertising-maxi .advertisements .brand .img-xiomi {
+  margin-left: 64px;
+}
+#advertising-maxi .advertisements .brand .img-zimmer {
+  width: 91%;
+}
+#advertising-maxi .advertisements .brand-text {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 80px;
+  text-align: center;
+  border-radius: 50%;
+  width: 176px;
+  height: 176px;
+  background-color: #ededee;
+}
+#advertising-maxi .advertisements .brand-text a {
+  font-weight: 500;
+  color: black;
+}
+
+#maxi-sale .sale-banner .sale {
+  margin-top: 35px;
+  height: 96%;
+  width: 100%;
+  background-color: #ededee;
+  padding: 45px 30px 0;
+}
+#maxi-sale .sale-banner .sale .sale-text {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: revert;
+}
+#maxi-sale .sale-banner .sale .sale-text .first-text {
+  color: red;
+}
+#maxi-sale .sale-banner .sale .second-text {
+  font-size: 18px;
+  margin-top: 12px;
+  font-weight: 400;
+}
+#maxi-sale .sale-banner .sale .sale-buttton {
+  margin-top: 40px;
+}
+#maxi-sale .sale-banner .sale .sale-buttton button {
+  text-transform: uppercase;
+  font-weight: 700;
+  background: red;
+  width: 165px;
+  height: 50px;
+  border-radius: 8px;
+}
+#maxi-sale .sale-banner .sale .fireman-img {
+  margin-top: 287px;
+}
+#maxi-sale .sale-banner .sale .fireman-img img {
+  width: 254px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .card-img-top {
+  padding: 14px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card ul {
+  font-size: 20px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 17px;
+  gap: 15px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .img-icon {
+  margin-top: 15px;
+  gap: 76px;
+  display: flex;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .img-icon a {
+  color: gray;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .img-icon a:hover {
+  color: red;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .img-icon img {
+  width: 37px;
+  height: 35px;
+  margin-left: 29px;
+  margin-top: 13px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .up {
+  font-size: 11px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .up .one-text {
+  display: flex;
+  gap: 5px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .up .one-text .p-one {
+  background-color: #8004b3;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  height: 18px;
+  padding: 3px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .up .one-text .p-two {
+  background-color: rgb(233, 247, 239);
+  width: 100px;
+  text-align: center;
+  font-weight: 700;
+  padding: 3px;
+  height: 18px;
+  color: rgb(37, 174, 96);
+}
+#maxi-sale .sale-banner .sale .sale-first-card .up .two-text {
+  display: flex;
+  gap: 5px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .up .two-text .p-three {
+  background-color: rgb(251, 197, 97);
+  width: 75px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  height: 18px;
+  padding: 3px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .up .two-text .p-four {
+  background-color: rgb(23, 104, 201);
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  padding: 3px;
+  height: 18px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .memory {
+  background-color: gray;
+  width: 60px;
+  background: white;
+  border-radius: 14px;
+  font-size: 12px;
+  height: 31px;
+  text-align: center;
+  padding: 9px 0 0 0;
+  border: 1px solid;
+  border-color: red;
+  color: red;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .test {
+  border: 1px solid red;
+  height: 23px;
+  width: 23px;
+  background: white;
+  border-radius: 62%;
+  margin-top: 2px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .test .round {
+  text-align: center;
+  color: gray;
+  width: 15px;
+  height: 15px;
+  background: gray;
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 50%;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .phone-name {
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 500;
+  margin-top: 13px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .star {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.3803921569);
+}
+#maxi-sale .sale-banner .sale .sale-first-card .star .text-commet {
+  font-size: 11px;
+  font-weight: 600;
+  color: gray;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .phone-price {
+  margin-top: 60px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .phone-price .present {
+  font-size: 40px;
+  font-weight: 600;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .phone-price i {
+  font-size: 25px;
+  margin-left: 5px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .phone-price del {
+  color: gray;
+  margin-left: 11px;
+  font-size: 25px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .phone-price .manat-icon {
+  font-size: 13px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .phone-price p {
+  font-weight: 600;
+  margin-top: 7px;
+  color: #25ae60;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .card-down .fa-clock {
+  color: red;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .card-down a {
+  border-style: dotted;
+  border-width: 0 0 2px 0;
+  font-weight: 500;
+  color: gray;
+  font-size: 13px;
+}
+#maxi-sale .sale-banner .sale .sale-first-card .shop-car {
+  box-shadow: 0 2px 8px rgba(8, 8, 8, 0.36);
+  color: red;
+  justify-content: center;
+  display: flex;
+  width: 48px;
+  bottom: 40px;
+  left: 75%;
+  position: absolute;
+  font-size: 25px;
+  height: 45px;
+  background-color: #f3f3f3;
+  align-items: center;
+  border-radius: 50%;
+}
+#maxi-sale .sale-banner .sale .img-phone-2 {
+  width: 150px;
+  height: 261px;
+  margin-left: 55px;
+}
+#maxi-sale .sale-banner .sale .img-phone-3 {
+  width: 185px;
+  height: 261px;
+  margin-left: 55px;
+}
+#maxi-sale .sale-banner .sale .round-two {
+  text-align: center;
+  color: rgb(14, 6, 131);
+  width: 15px;
+  height: 15px;
+  background: rgb(14, 0, 136);
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 50%;
+}
+#maxi-sale .sale-banner .sale .round-three {
+  text-align: center;
+  color: rgb(29, 184, 8);
+  width: 15px;
+  height: 15px;
+  background: rgb(38, 175, 4);
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */

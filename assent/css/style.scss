@@ -61,7 +61,7 @@ ul {
     line-height: 0.1;
 
     span {
-        font-size: .75rem;
+        font-size: .65rem;
         margin-top: 10px;
 
     }
@@ -427,8 +427,9 @@ ul {
         }
 
 
-        .firstcard{
+        .firstcard {
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
             .text-star {
 
                 .p-five {
@@ -475,29 +476,29 @@ ul {
 
                 color: red;
                 justify-content: center;
-                
+
                 display: flex;
                 width: 48px;
                 bottom: 75px;
                 left: 80%;
                 position: relative;
-                
+
                 font-size: 25px;
                 height: 48px;
                 background-color: #f3f3f3;
                 align-items: center;
                 border-radius: 50%;
-                
 
-                a{
-                    :hover{
+
+                a {
+                    :hover {
                         background-color: red;
                     }
                 }
             }
 
             ul {
-                
+
                 margin-right: 15px;
                 display: flex;
                 justify-content: flex-end;
@@ -505,10 +506,10 @@ ul {
                 font-size: 25px;
                 gap: 15px;
 
-                a{
+                a {
                     color: #4244466e;
 
-                    :hover{
+                    :hover {
                         color: red;
                     }
                 }
@@ -544,6 +545,604 @@ ul {
             font-weight: 600;
         }
     }
+}
 
+#maxi-news {
+
+    .news-banner {
+
+        .discount-card {
+
+            .card-body {
+
+                .card-title {
+                    color: #ec2127;
+                    font-size: 40px;
+                    font-weight: 900;
+                    font-family: system-ui;
+
+
+                }
+
+                span {
+                    color: #0c61d5;
+                    font-size: 40px;
+                    font-weight: 900;
+                    font-family: system-ui;
+                }
+
+                img {
+                    max-width: 114px;
+                    position: absolute;
+                    /* width: 90px; */
+                    /* height: 61px; */
+                    left: 88%;
+                }
+
+                .nav-base {
+
+                    gap: 12px;
+
+                    .nav-active {
+                        color: red;
+                    }
+
+                    .nav-item {
+                        font-size: 12px;
+                        border-radius: 20px;
+                        text-transform: uppercase;
+                        background-color: #eaf0f8;
+                        line-height: 140%;
+
+                        a {
+                            color: black;
+                        }
+                    }
+                }
+
+            }
+
+            .card-header {
+                padding: 50px 50px 20px;
+                height: 350px;
+                background-color: #ffa319;
+                display: flex;
+
+                .parametr {
+                    margin-top: 0;
+
+                    ul {
+                        font-size: 15px;
+
+                        list-style: inherit;
+                        color: gold;
+
+                        li {
+                            color: white;
+                        }
+                    }
+
+                    .promotion {
+                        border-radius: 20px;
+                        margin-top: 25px;
+                        text-align: center;
+
+                        width: 240px;
+                        height: 70px;
+                        background-color: #fed237;
+
+                        h6 {
+                            padding-top: 12px;
+                            font-size: 12px;
+                            padding-right: 55px;
+                        }
+
+                        h5 {
+                            font-size: 26px;
+                            padding-right: 22px;
+                            line-height: 8px;
+
+                        }
+
+                    }
+
+                }
+
+
+                .img-phone {
+                    display: flex;
+                    width: 62%;
+                    margin-left: 40px;
+                    height: 95%;
+                    border-radius: 30px;
+                    background-color: white;
+                    padding: 15px;
+
+
+                    img {
+                        width: 43%;
+                    }
+
+                    .phone-info {
+
+                        a {
+                            color: black;
+                            font-family: inherit;
+                            font-size: 21px;
+                            font-weight: 400;
+                        }
+
+                        .star-phone {
+                            color: #d5cfcfa6;
+                            margin-top: 8px;
+
+
+                            .text-comment {
+                                color: #817c7cc2;
+                                font-size: 12px;
+                                margin-left: 7px;
+                            }
+
+
+
+
+
+                        }
+
+                        .price-phone {
+
+                            color: red;
+                            font-size: 35px;
+                            font-weight: 700;
+                            font-family: sans-serif;
+
+                            i {
+                                font-size: 22px;
+
+                            }
+                        }
+
+
+                        .kredit {
+
+                            a {
+                                border-style: dotted;
+                                border-width: 0 0 2px 0;
+                                font-size: 13px;
+                                border-color: gray;
+
+                                i {
+                                    color: red;
+                                }
+
+                                span {
+                                    color: gray;
+                                }
+
+                            }
+
+
+
+                        }
+
+                        .buttons {
+                            margin-top: 20px;
+
+                            .order-button {
+                                background-color: #ec2127;
+                                font-weight: 700;
+                                font-size: 14px;
+                                width: 105px;
+                                height: 40px;
+                                color: white;
+                            }
+
+                            a {
+                                font-size: 14px;
+                                border-style: dotted;
+                                border-width: 0 0 2px 0;
+                                border-color: gray;
+                                text-decoration: none;
+                                color: gray;
+                                margin-left: 12px;
+                            }
+
+                        }
+
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+
+
+#advertising-maxi {
+
+    .advertisements {
+        margin-top: 90px;
+
+        .brand {
+            border-radius: 50%;
+            width: 176px;
+            height: 176px;
+            background-color: #ededee;
+
+            img {
+                margin-top: 68px;
+                margin-left: 10px;
+
+            }
+
+            .img-apple {
+                margin-left: 24px;
+            }
+
+            .img-xiomi {
+                margin-left: 64px;
+            }
+
+            .img-zimmer {
+                width: 91%;
+
+            }
+        }
+
+        .brand-text {
+            font-size: 14px;
+            text-transform: uppercase;
+            padding-top: 80px;
+            text-align: center;
+            border-radius: 50%;
+            width: 176px;
+            height: 176px;
+            background-color: #ededee;
+
+            a {
+                font-weight: 500;
+                color: black;
+            }
+
+        }
+
+    }
+
+}
+
+#maxi-sale {
+
+    .sale-banner {
+
+        .sale {
+            margin-top: 35px;
+            height: 96%;
+            width: 100%;
+            background-color: #ededee;
+            padding: 45px 30px 0;
+
+
+
+            .sale-text {
+                font-size: 40px;
+                font-weight: 800;
+                font-family: revert;
+
+                .first-text {
+                    color: red;
+                }
+
+
+            }
+
+            .second-text {
+                font-size: 18px;
+                margin-top: 12px;
+                font-weight: 400;
+            }
+
+            .sale-buttton {
+
+                margin-top: 40px;
+
+                button {
+                    text-transform: uppercase;
+
+                    font-weight: 700;
+                    background: red;
+                    width: 165px;
+                    height: 50px;
+                    border-radius: 8px;
+                }
+
+            }
+
+
+            .fireman-img {
+                margin-top: 287px;
+
+
+                img {
+                    width: 254px;
+                }
+
+            }
+
+
+            .sale-first-card {
+
+                .card-img-top {
+                    padding: 14px;
+
+                }
+
+
+
+                ul {
+                    font-size: 20px;
+                    margin-right: 15px;
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 17px;
+                    gap: 15px;
+                }
+
+                .img-icon {
+                    margin-top: 15px;
+                    gap: 76px;
+                    display: flex;
+
+                    a{
+                        color: gray;
+
+                        &:hover{
+                            color: red;
+                        }
+                    }
+
+                    img {
+
+                        width: 37px;
+                        height: 35px;
+                        margin-left: 29px;
+                        margin-top: 13px;
+                    }
+                }
+
+                .up {
+                    font-size: 11px;
+                    line-height: 110%;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+
+                    .one-text {
+                        display: flex;
+                        gap: 5px;
+
+                        .p-one {
+                            background-color: #8004b3;
+                            width: 100px;
+                            text-align: center;
+                            color: white;
+                            font-weight: 700;
+                            height: 18px;
+                            padding: 3px;
+
+                        }
+
+                        .p-two {
+                            background-color: rgb(233 247 239);
+                            width: 100px;
+                            text-align: center;
+
+                            font-weight: 700;
+                            padding: 3px;
+                            height: 18px;
+                            color: rgb(37 174 96);
+                        }
+                    }
+
+                    .two-text {
+                        display: flex;
+                        gap: 5px;
+
+                        .p-three {
+                            background-color: rgb(251, 197, 97);
+                            width: 75px;
+                            text-align: center;
+                            color: white;
+                            font-weight: 700;
+                            height: 18px;
+                            padding: 3px;
+                        }
+
+                        .p-four {
+                            background-color: rgb(23, 104, 201);
+                            width: 100px;
+                            text-align: center;
+                            color: white;
+                            font-weight: 700;
+                            padding: 3px;
+                            height: 18px;
+
+                        }
+                    }
+                }
+
+                .memory {
+                    background-color: gray;
+                    width: 60px;
+                    background: white;
+                    border-radius: 14px;
+                    font-size: 12px;
+                    height: 31px;
+                    text-align: center;
+                    padding: 9px 0 0 0;
+                    border: 1px solid;
+                    border-color: red;
+                    color: red;
+                }
+
+                .test {
+                    border: 1px solid red;
+                    height: 23px;
+                    width: 23px;
+                    background: white;
+                    border-radius: 62%;
+                    margin-top: 2px;
+
+                    .round {
+                        text-align: center;
+
+                        color: gray;
+                        width: 15px;
+                        height: 15px;
+                        background: gray;
+                        margin-top: 3px;
+                        margin-left: 3px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .phone-name {
+                    font-size: 12px;
+                    font-family: inherit;
+                    font-weight: 500;
+                    margin-top: 13px;
+                }
+
+                .star {
+                    font-size: 14px;
+                    color: #80808061;
+
+                    .text-commet {
+                        font-size: 11px;
+                        font-weight: 600;
+                        color: gray;
+                    }
+                }
+
+                .phone-price {
+                    margin-top: 60px;
+
+
+
+                    .present {
+                        font-size: 40px;
+                        font-weight: 600;
+                    }
+
+                    i {
+                        font-size: 25px;
+                        margin-left: 5px;
+
+                    }
+
+                    del {
+                        color: gray;
+                        margin-left: 11px;
+                        font-size: 25px;
+                    }
+
+                    .manat-icon {
+                        font-size: 13px;
+                    }
+
+                    p {
+                        font-weight: 600;
+                        margin-top: 7px;
+                        color: #25ae60;
+
+                    }
+
+                }
+
+                .card-down {
+
+
+                    .fa-clock {
+                        color: red;
+                    }
+
+                    a {
+                        border-style: dotted;
+                        border-width: 0 0 2px 0;
+                        font-weight: 500;
+                        color: gray;
+                        font-size: 13px;
+                    }
+
+                }
+
+                .shop-car {
+                    box-shadow: 0 2px 8px rgb(8 8 8 / 36%);
+                    color: red;
+                    justify-content: center;
+                    display: flex;
+                    width: 48px;
+                    bottom: 40px;
+                    left: 75%;
+                    position: absolute;
+                    font-size: 25px;
+                    height: 45px;
+                    background-color: #f3f3f3;
+                    align-items: center;
+                    border-radius: 50%;
+                }
+
+
+
+
+
+            }
+
+            .img-phone-2{
+                width: 150px;
+                height: 261px;
+                margin-left: 55px;
+            }
+
+            .img-phone-3{
+                width: 185px;
+                height: 261px;
+                margin-left: 55px;
+            }
+
+            .round-two{
+                text-align: center;
+
+                color: rgb(14, 6, 131);
+                width: 15px;
+                height: 15px;
+                background: rgb(14, 0, 136);
+                margin-top: 3px;
+                margin-left: 3px;
+                border-radius: 50%;
+            }
+
+            .round-three{
+                text-align: center;
+
+                color: rgb(29, 184, 8);
+                width: 15px;
+                height: 15px;
+                background: rgb(38, 175, 4);
+                margin-top: 3px;
+                margin-left: 3px;
+                border-radius: 50%;
+
+            }
+
+
+        }
+
+
+
+
+    }
 
 }
