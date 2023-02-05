@@ -697,7 +697,7 @@ ul {
   border-color: red;
   color: red;
 }
-#maxi-sale .sale-banner .sale .sale-first-card .test {
+#maxi-sale .sale-banner .sale .sale-first-card .color-selection {
   border: 1px solid red;
   height: 23px;
   width: 23px;
@@ -705,7 +705,7 @@ ul {
   border-radius: 62%;
   margin-top: 2px;
 }
-#maxi-sale .sale-banner .sale .sale-first-card .test .round {
+#maxi-sale .sale-banner .sale .sale-first-card .color-selection .choose {
   text-align: center;
   color: gray;
   width: 15px;
@@ -789,7 +789,7 @@ ul {
   height: 261px;
   margin-left: 55px;
 }
-#maxi-sale .sale-banner .sale .round-two {
+#maxi-sale .sale-banner .sale .choose-two {
   text-align: center;
   color: rgb(14, 6, 131);
   width: 15px;
@@ -799,13 +799,257 @@ ul {
   margin-left: 3px;
   border-radius: 50%;
 }
-#maxi-sale .sale-banner .sale .round-three {
+#maxi-sale .sale-banner .sale .choose-three {
   text-align: center;
-  color: rgb(29, 184, 8);
+  color: #481d6f;
   width: 15px;
   height: 15px;
-  background: rgb(38, 175, 4);
+  background: #481d6f;
   margin-top: 3px;
   margin-left: 3px;
   border-radius: 50%;
+}
+
+#goods-slider .slider-title-text {
+  margin-top: 65px;
+}
+#goods-slider .slider-title-text h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+#goods-slider .first-card {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#goods-slider .first-card .card-img-top {
+  padding: 40px;
+}
+#goods-slider .first-card ul {
+  font-size: 20px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 17px;
+  gap: 15px;
+}
+#goods-slider .first-card .img-icon {
+  margin-top: 15px;
+  gap: 76px;
+  display: flex;
+}
+#goods-slider .first-card .img-icon a {
+  color: gray;
+}
+#goods-slider .first-card .img-icon a:hover {
+  color: red;
+}
+#goods-slider .first-card .img-icon img {
+  width: 37px;
+  height: 35px;
+  margin-left: 29px;
+  margin-top: 13px;
+}
+#goods-slider .first-card .up {
+  font-size: 11px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+#goods-slider .first-card .up .one-text {
+  display: flex;
+  gap: 5px;
+}
+#goods-slider .first-card .up .one-text .p-one {
+  background-color: rgb(253, 106, 0);
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  height: 18px;
+  padding: 3px;
+}
+#goods-slider .first-card .up .one-text .p-two {
+  background-color: rgb(140, 98, 161);
+  width: 100px;
+  text-align: center;
+  font-weight: 700;
+  padding: 3px;
+  height: 18px;
+  color: white;
+}
+#goods-slider .first-card .up .one-text .p-two-clone {
+  background-color: rgb(233, 247, 239);
+  width: 114px;
+  text-align: center;
+  font-weight: 700;
+  padding: 3px;
+  height: 18px;
+  color: rgb(37, 174, 96);
+}
+#goods-slider .first-card .up .two-text {
+  display: flex;
+  gap: 5px;
+  margin-top: -10px;
+}
+#goods-slider .first-card .up .two-text .p-three {
+  background-color: rgb(251, 197, 97);
+  width: 75px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  height: 18px;
+  padding: 3px;
+}
+#goods-slider .first-card .up .two-text .p-four {
+  background-color: rgb(23, 104, 201);
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  padding: 3px;
+  height: 18px;
+}
+#goods-slider .first-card .color-selection {
+  background: white;
+  border-radius: 62%;
+  margin-top: 2px;
+  display: flex;
+}
+#goods-slider .first-card .color-selection .choose1 {
+  text-align: center;
+  color: black;
+  width: 15px;
+  height: 15px;
+  background: black;
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 50%;
+}
+#goods-slider .first-card .color-selection .color-selection-basically {
+  border: 1px solid red;
+  height: 23px;
+  width: 23px;
+  background: white;
+  border-radius: 62%;
+  margin-top: -1px;
+  margin-left: 2px;
+}
+#goods-slider .first-card .color-selection .choose2 {
+  text-align: center;
+  color: gray;
+  width: 15px;
+  height: 15px;
+  background: gold;
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 50%;
+}
+#goods-slider .first-card .color-selection .choose3 {
+  text-align: center;
+  color: gray;
+  width: 15px;
+  height: 15px;
+  background: #481c71;
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 50%;
+}
+#goods-slider .first-card .phone-name {
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 500;
+  margin-top: 13px;
+}
+#goods-slider .first-card .star {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.3803921569);
+}
+#goods-slider .first-card .star .checked {
+  color: orange;
+}
+#goods-slider .first-card .star .text-commet {
+  font-size: 11px;
+  font-weight: 600;
+  color: gray;
+}
+#goods-slider .first-card .phone-price {
+  margin-top: 60px;
+}
+#goods-slider .first-card .phone-price .present {
+  font-size: 40px;
+  font-weight: 600;
+}
+#goods-slider .first-card .phone-price i {
+  font-size: 25px;
+  margin-left: 5px;
+}
+#goods-slider .first-card .phone-price del {
+  color: gray;
+  margin-left: 11px;
+  font-size: 25px;
+}
+#goods-slider .first-card .phone-price .manat-icon {
+  font-size: 13px;
+}
+#goods-slider .first-card .phone-price p {
+  font-weight: 600;
+  margin-top: 7px;
+  color: #25ae60;
+}
+#goods-slider .first-card .card-down .fa-clock {
+  color: red;
+}
+#goods-slider .first-card .card-down a {
+  border-style: dotted;
+  border-width: 0 0 2px 0;
+  font-weight: 500;
+  color: gray;
+  font-size: 13px;
+}
+#goods-slider .first-card .shop-car {
+  box-shadow: 0 2px 8px rgba(8, 8, 8, 0.36);
+  color: red;
+  justify-content: center;
+  display: flex;
+  width: 48px;
+  bottom: 40px;
+  left: 75%;
+  position: absolute;
+  font-size: 25px;
+  height: 45px;
+  background-color: #f3f3f3;
+  align-items: center;
+  border-radius: 50%;
+}
+
+#blog .blog-text {
+  margin-top: 75px;
+  display: flex;
+  gap: 25px;
+}
+#blog .blog-text span {
+  margin-top: 10px;
+}
+#blog .card {
+  width: 23rem;
+  margin-top: 30px;
+}
+#blog .card .card-header {
+  border-bottom: none;
+  display: flex;
+  justify-content: space-between;
+}
+#blog .card .card-header .span-text {
+  font-weight: 400;
+  height: 19px;
+  text-align: center;
+  width: 85px;
+  background-color: #fbe69b;
+  font-size: 12px;
+}
+#blog .card .card-header .span-text-second {
+  color: gray;
+  font-size: 13px;
+}
+#blog .card .card-title {
+  font-weight: 800;
 }/*# sourceMappingURL=style.css.map */
